@@ -1,10 +1,10 @@
 import React from "react";
 
 function Recommendcar(props) {
-  const { carName, retweet, imgURL, rentPrice, percentage } = props.item;
+  const { carName, retweet, imgUrl, rentPrice, percentage } = props.item;
 
   return (
-    <div>
+
       <div className="recommend_car-card">
         <div className="recommend_car-top">
           <h5>
@@ -16,7 +16,7 @@ function Recommendcar(props) {
         </div>
 
         <div className="recommend_car-img">
-          <img src={imgURL} alt="car-img" />
+          <img src={imgUrl} alt="car-img" />
         </div>
         <div className="recommend_car-bottom">
           <h4>{carName}</h4>
@@ -41,7 +41,7 @@ function Recommendcar(props) {
           </div>
         </div>
       </div>
-    </div>
+
   );
 }
 

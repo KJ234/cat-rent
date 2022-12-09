@@ -10,9 +10,9 @@ const navLinks = [
     display: "Booking",
   },
   {
-    path: "/sell-car",
+    path: "/sell-cat",
     icon: "ri-shopping-bag-line",
-    display: "Sell Cars",
+    display: "Sell Cats",
   },
   {
     path: "/settings",

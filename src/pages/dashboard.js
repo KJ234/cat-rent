@@ -2,14 +2,14 @@ import React from "react";
 import "../styles/dashboard.css";
 import Singlecard from "../components/reusable/singlecard";
 import MileChart from "../charts/mileChart";
-import Carstats from "../charts/Carstats";
+import Carstats from "../charts/Catstats";
 import Recommendcar from "../components/UI/Recommendcar";
-import recommendCarsData from '../assets/dummy-data/recommendCars'
+import recommendCarsData from '../assets/dummy-data/recommendCats'
 
 const cardObj = {
-  title: "Total Cars",
+  title: "Total Cats",
   totalNumber: 750,
-  icon: "ri-police-car-line",
+  icon: "ri-bear-smile-line",
 };
 const tripObj = {
   title: "Daily Trips",
@@ -22,7 +22,7 @@ const clientObj = {
   icon: "ri-user-line",
 };
 const distanceObj = {
-  title: "Miles daily",
+  title: "Used daily",
   totalNumber: "1987",
   icon: "ri-timer-flash-line",
 };
@@ -39,11 +39,11 @@ function dashboard() {
         </div>
         <div className="statics">
           <div className="stats">
-            <h3 className="stats_title">Miles Statistics</h3>
+            <h3 className="stats_title">Rented Statistics</h3>
             <MileChart />
           </div>
           <div className="stats">
-            <h3 className="stats_title">Car Statistics</h3>
+            <h3 className="stats_title">Cat Statistics</h3>
             <Carstats />
           </div>
         </div>

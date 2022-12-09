@@ -1,30 +1,30 @@
-import car1 from "../images/mini-car-01.png";
-import car2 from "../images/mini-car-02.png";
-import car3 from "../images/mini-car-03.png";
+import cat1 from "../images/cat-01.png";
+import cat2 from "../images/cat-02.png";
+import cat3 from "../images/cat-03.png";
 
 const recommendCars = [
   {
     id: "01",
-    carName: "Mini Cooper",
+    carName: "British Shorthair",
     rentPrice: 32,
     retweet: "132",
-    imgUrl: car1,
+    imgUrl: cat1,
     percentage: "74",
   },
   {
     id: "02",
-    carName: "Porsche 911 Carrera",
+    carName: "American Shorthair",
     rentPrice: 28,
     retweet: "130",
-    imgUrl: car2,
+    imgUrl: cat2,
     percentage: "74",
   },
   {
     id: "03",
-    carName: "Porsche 911 Carrera",
+    carName: "Maine Coon.",
     rentPrice: 28,
     retweet: "130",
-    imgUrl: car3,
+    imgUrl: cat3,
     percentage: "74",
   },
 ];

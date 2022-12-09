@@ -1,16 +1,16 @@
 import React from "react";
 import {ResponsiveContainer, BarChart, Bar, XAxis, Tooltip} from 'recharts'
-import mileStaticsData from '../assets/dummy-data/mileStatics'
+import catStaticsData from '../assets/dummy-data/catStatics'
 
 
 function mileChart() {
   return (
 
       <ResponsiveContainer width="100%">
-        <BarChart data={mileStaticsData}>
+        <BarChart data={catStaticsData}>
           <XAxis dataKey="name" stroke="#2884ff" />
           <Bar
-            dataKey="mileStats"
+            dataKey="usedDaily"
             stroke="#2884ff"
             fill="#2884ff"
             barSize={30}

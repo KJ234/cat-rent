@@ -37,3 +37,7 @@ a {
 .main_layout{
   margin-left: 270px;
 }
+
+img {
+  width: 100%;
+}

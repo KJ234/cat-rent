@@ -1,32 +1,32 @@
-const mileStatics = [
+const catStatics = [
   {
     name: "Sat",
-    mileStats: 6000,
+    usedDaily: 6000,
   },
   {
     name: "Sun",
-    mileStats: 5000,
+    usedDaily: 5000,
   },
   {
     name: "Mon",
-    mileStats: 7000,
+    usedDaily: 7000,
   },
   {
     name: "Tue",
-    mileStats: 5780,
+    usedDaily: 5780,
   },
   {
     name: "Wed",
-    mileStats: 4890,
+    usedDaily: 4890,
   },
   {
     name: "Thu",
-    mileStats: 6390,
+    usedDaily: 6390,
   },
   {
     name: "Fri",
-    mileStats: 5490,
+    usedDaily: 5490,
   },
 ];
 
-export default mileStatics;
+export default catStatics;

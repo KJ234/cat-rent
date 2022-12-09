@@ -1,4 +1,4 @@
-const carStaticsData = [
+const catStaticsData = [
   {
     name: "Sat",
     week: 4000,
@@ -36,4 +36,4 @@ const carStaticsData = [
   },
 ];
 
-export default carStaticsData;
+export default catStaticsData;

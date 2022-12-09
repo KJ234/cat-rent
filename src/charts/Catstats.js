@@ -1,8 +1,8 @@
 import React from "react";
 import { ResponsiveContainer, AreaChart, XAxis, Tooltip, CartesianGrid, Area} from "recharts";
-import carStaticData from '../assets/dummy-data/carStatics'
+import carStaticData from '../assets/dummy-data/catStatics2'
 
-function Carstats() {
+function Catstats() {
   return (
     <ResponsiveContainer width="100%">
       <AreaChart
@@ -43,4 +43,4 @@ function Carstats() {
   );
 }
 
-export default Carstats;
+export default Catstats;
