@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     z-index: 999;background: var(--primary-color);
-    padding-left: 30px;
+    padding: 0px 30px;
 
 }
 
@@ -72,7 +72,7 @@
 
 .nav_list{
     display: flex;
-    row-gap: 1rem;
+    row-gap: 1.3rem;
     flex-direction: column;
     color: var(--small-text-color);
 }
@@ -84,5 +84,8 @@
 
 .nav_active {
     color: white;
+    background: #b7ffe913;
+    padding: 6px;
+    border-radius: 5px;
 
 }
