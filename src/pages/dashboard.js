@@ -43,11 +43,11 @@ function dashboard() {
             <MileChart />
           </div>
           <div className="stats">
-            <h3 className="stats_title">Miles Statistics</h3>
+            <h3 className="stats_title">Car Statistics</h3>
             <Carstats />
           </div>
         </div>
-        <div className="recommend_car-wrapper">
+        <div className="recommend_cars-wrapper">
           {recommendCarsData.map((item) => (
             <Recommendcar item={item} key={item.id} />
           ))}
