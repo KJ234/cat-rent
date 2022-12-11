@@ -21,7 +21,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: var(--body-bg);
 }
 
@@ -34,8 +34,8 @@ a {
   color: unset;
 }
 
-.main_layout{
-  margin-left: 270px;
+.main_layout {
+  margin-left: 260px;
 }
 
 img {

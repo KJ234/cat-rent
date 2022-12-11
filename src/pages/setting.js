@@ -14,7 +14,7 @@ function setting() {
           <button className="setting_btn">Notifications</button>
         </div>
         <div className="details_form">
-          <h2 className="profile">Profile</h2>
+          <h2 className="profile_title">Profile</h2>
           <p className="profile_desc">
             Update your photo and personnal details
           </p>
@@ -58,8 +58,8 @@ function setting() {
               </div>
 
               <div className="profile_img-btns">
-                <button className="dlt_btn"></button>
-                <button className="update_btn"></button>
+                <button className="dlt_btn">Delete</button>
+                <button className="update_btn">Update</button>
               </div>
             </div>
           </form>
