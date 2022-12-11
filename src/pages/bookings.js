@@ -5,10 +5,10 @@ import Caritem from "../components/UI/Caritem";
 
 function bookings() {
   return (
-    <div className="booking">
+    <div className="bookings">
       <div className="booking_wrapper">
         <h2 className="booking_title">Booking</h2>
-        <div className="filer_widget-wrapper">
+        <div className="filter_widget-wrapper">
           <div className="filter_widget-01">
             <select>
               <option value="New">New</option>
@@ -18,9 +18,9 @@ function bookings() {
           </div>
           <div className="filter_widget-01">
             <select>
-              <option value="toyota">toyota</option>
-              <option value="bmw">bmw</option>
-              <option value="audi">audi </option>
+              <option value="toyota">Toyota</option>
+              <option value="bmw">Bmw</option>
+              <option value="audi">Audi</option>
             </select>
           </div>
         </div>

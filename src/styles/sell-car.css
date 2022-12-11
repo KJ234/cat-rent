@@ -1,0 +1,49 @@
+.sell_car {
+  margin-top: 100px;
+  padding: 0px 30px;
+  padding-bottom: 50px;
+}
+
+.sell_car-img {
+  padding: 20px;
+  background: var(--primary-color);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sell_car-img img {
+  object-fit: cover;
+  width: 70%;
+}
+
+.sell_car-img h2 {
+  color: var(--heading-color);
+  text-align-last: left;
+}
+
+.sell_car-top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.tracking_history {
+  padding: 20px;
+  border-radius: 5px;
+  background: var(--primary-color);
+  height: 370px;
+  padding-bottom: 70px;
+  cursor: pointer;
+}
+
+.tracking_history h3 {
+  color: var(--heading-color);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.sell_car-title {
+  margin-bottom: 2rem;
+  color: #fff;
+}
