@@ -1,1 +1,1 @@
-https://rentcatx.netlify.app/dashboard
+https://rentcatx.netlify.app
