@@ -106,12 +106,40 @@
   margin-bottom: 20px;
 }
 
-.car_item:nth-child(2) .car_img img,
-.car_item:nth-child(6) .car_img img,
-.car_item:nth-child(8) .car_img img {
-  width: 75%;
+.car_item:nth-child(1) .car_img img {
+
+  width: 100%;
+  margin-top: 4rem;
+  }
+
+.car_item:nth-child(2) .car_img img {
+
+width: 100%;
+margin-top: 2rem;
 }
 
+
 .car_item:nth-child(4) .car_img img {
-  width: 85%;
+  width: 55%;
 }
+.car_item:nth-child(5) .car_img img {
+
+  width: 75%;
+
+  }
+
+.car_item:nth-child(6) .car_img img {
+  width: 85%;
+
+}
+
+.car_item:nth-child(7) .car_img img{
+  width: 160%;
+
+}
+.car_item:nth-child(8) .car_img img {
+  width: 120%;
+  margin-left: -3rem;
+}
+
+

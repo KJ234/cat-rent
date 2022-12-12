@@ -1,38 +1,38 @@
 const trackingData = [
   {
     name: "Sat",
-    km: 10,
-    mt: 5,
+    sales: 10,
+
   },
   {
     name: "Sun",
-    km: 8,
-    mt: 10,
+    sales: 8,
+
   },
   {
     name: "Mon",
-    km: 18,
-    mt: 15,
+    sales: 18,
+
   },
   {
     name: "Tue",
-    km: 23,
-    mt: 20,
+    sales: 23,
+
   },
   {
     name: "Wed",
-    km: 21,
-    mt: 25,
+    sales: 21,
+
   },
   {
     name: "Thu",
-    km: 14,
-    mt: 30,
+    sales: 14,
+
   },
   {
     name: "Fri",
-    km: 33,
-    mt: 35,
+    sales: 33,
+
   },
 ];
 

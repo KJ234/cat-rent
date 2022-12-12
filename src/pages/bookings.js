@@ -18,9 +18,14 @@ function bookings() {
           </div>
           <div className="filter_widget-01">
             <select>
-              <option value="toyota">Toyota</option>
-              <option value="bmw">Bmw</option>
-              <option value="audi">Audi</option>
+              <option value="Shorthair">Shorthair</option>
+              <option value="Persian cat">Persian cat</option>
+              <option value="Siamese cat">Siamese cat</option>
+              <option value="Abyssinian cat">Abyssinian cat</option>
+              <option value="Egyptian Mau">Egyptian Mau</option>
+              <option value="Tabby cat">Tabby cat</option>
+              <option value="Maine Coon">Maine Coon</option>
+              <option value="Bengal cat">Bengal cat</option>
             </select>
           </div>
         </div>

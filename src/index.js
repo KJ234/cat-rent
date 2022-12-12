@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import 'remixicon/fonts/remixicon.css'
+import 'react-circular-progressbar/dist/styles.css';
 
 
 

@@ -19,7 +19,7 @@ const TrackingChart = () => {
 
         <Line
           type="monotone"
-          dataKey="km"
+          dataKey="sales"
           data={trackingData}
           stroke="#e1424e"
           strokeWidth={2}
