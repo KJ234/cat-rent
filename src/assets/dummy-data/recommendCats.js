@@ -1,5 +1,5 @@
-import cat1 from "../images/cat-01.png";
-import cat2 from "../images/cat-02.png";
+import cat1 from "../images/cat-011.png";
+import cat2 from "../images/extra.jpg";
 import cat3 from "../images/cat-03.png";
 
 const recommendCars = [
