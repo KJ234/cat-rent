@@ -7,8 +7,13 @@ import cat06 from "../images/cat-06.png";
 import cat07 from "../images/cat-07.png";
 import cat08 from "../images/cat-08.png";
 import cat09 from "../images/cat-09.png";
+import cat10 from "../images/sell-cat.png"
+import cat11 from "../images/cat-10.png"
+import cat12 from "../images/cat-12.png"
+import cat13 from "../images/cat-13.png"
+import cat14 from "../images/cat-14.png"
 
-const bookingCars = [
+const bookingCats = [
   {
     id: "01",
     carName: "British Shorthair    ",
@@ -75,6 +80,41 @@ const bookingCars = [
     rentPrice: '£109',
     imgUrl: cat09,
   },
+  {
+    id: "10",
+    carName: "Ragdoll cat",
+    groupSize: 24,
+    rentPrice: '£109',
+    imgUrl: cat10,
+  },
+  {
+    id: "11",
+    carName: "Sphynx cat",
+    groupSize: 24,
+    rentPrice: '£109',
+    imgUrl: cat11,
+  },
+  {
+    id: "12",
+    carName: "Black Burmese cat",
+    groupSize: 24,
+    rentPrice: '£109',
+    imgUrl: cat12,
+  },
+  {
+    id: "13",
+    carName: "Siberian cat",
+    groupSize: 24,
+    rentPrice: '£109',
+    imgUrl: cat13,
+  },
+  {
+    id: "14",
+    carName: "Japanese Bobtail",
+    groupSize: 24,
+    rentPrice: '£109',
+    imgUrl: cat14,
+  },
 ];
 
-export default bookingCars;
+export default bookingCats;
